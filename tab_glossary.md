@@ -68,6 +68,9 @@ tags: related-tag
 
 ## D {#d}
 
+### Data poisoning
+Type of attack that inject poisoning samples into the data
+
 []()
 
 ## E {#e}
