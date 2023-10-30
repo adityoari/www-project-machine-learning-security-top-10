@@ -57,7 +57,7 @@ tags: related-tag
 ## A {#a}
 
 
-[Adversarial Attack](#adversarial_attack)  
+[Adversarial attack](#adversarial_attack)  
 Type of attack which seeks to trick machine learning models into misclassifying inputs by maliciously tampering with input data
 
 ## B {#b}
@@ -152,7 +152,7 @@ Controlling model complexity by adding information in order to solve ill-posed p
 
 ## S {#s}
 
-[Spam](#spam)
+[Spam](#spam)  
 The abuse of electronic messaging systems to indiscriminately send unsolicited bulk messages
 
 ## T {#t}
