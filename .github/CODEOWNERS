@@ -1,10 +1,10 @@
 # Project Leads
 
-*       @shsingh @sagarbhure
+*                         @shsingh @sagarbhure
 
 # Core Contributors
 
-/docs/ @shsingh @sagarbhure
+/docs/                    @shsingh @sagarbhure
 
 # ML01 Lead
 
@@ -19,8 +19,8 @@
 
 # ML03 Lead
 
-#/docs/ML03*
-#/docs/cheatsheets/ML03*
+/docs/ML03                @yodap-dg
+/docs/cheatsheets/ML03*   @yodap-dg @shsingh @sagarbhure
 
 # ML04 Lead
 
@@ -34,13 +34,13 @@
 
 # ML06 Lead
 
-#/docs/ML06*
-#/docs/cheatsheets/ML06*
+/docs/ML06*               @mik0w
+/docs/cheatsheets/ML06*   @mik0w @shsingh @sagarbhure
 
 # ML07 Lead
 
-#/docs/ML07*
-#/docs/cheatsheets/ML07*
+/docs/ML07*               @techiemac
+/docs/cheatsheets/ML07*   @techiemac @shsingh @sagarbhure
 
 # ML08 Lead
 

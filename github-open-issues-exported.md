@@ -1,5 +1,311 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#194 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194) `open`: chore: github issues archive
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-12-18 04:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194):
+
+- chore: github issues archive
+- chore: github issues archive
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#189 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189) `open`: [FEEDBACK]: Include a page with a brief descriptions of each of the vulnerabilities
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/64902909?u=756899683e78c4e336cc1e8a6b7584bc6b508200&v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-11-23 12:08](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+For example in Top10 for LLM there's this page with a summary of each of the vulnerabilities, which I think would be pretty useful to have in Top10 for ML as well. 
+
+Sometimes  when you e.g. work on some slides for a presentation, you just want to get a short summary of each of the vulnerabilities. In my opinion including such a page in Top10 for ML would be an improvement: 
+
+![summary](https://github.com/OWASP/www-project-machine-learning-security-top-10/assets/64902909/0bc2b1c8-43a0-4a5d-b549-71cf83e897c1)
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:07](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189#issuecomment-1859518422):
+
+Hi @mik0w is the suggestion to create a summary page? Or to look at enhacing the introductory sections within each of the ML risks so that they can be used as a summary? Or both? 
+
+In either case I think this is a good idea, let me get started on it.
+
+
+-------------------------------------------------------------------------------
+
+# [\#188 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188) `open`: [FEEDBACK]: Include MLOps vulnerabilties somewhere in the Supply Chain Security category 
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/64902909?u=756899683e78c4e336cc1e8a6b7584bc6b508200&v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-11-17 10:26](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+**Context**
+One of the parts of the supply chain in modern ML systems is MLOps software - like i.e. MLFlow, Prefect etc. Those systems are vulnerable to classic web based attacks and they seem to be "misconfured by default". I've described it here: https://hackstery.com/2023/10/13/no-one-is-prefect-is-your-mlops-infrastructure-leaking-secrets/ or here: https://github.com/logspace-ai/langflow/issues/1145 
+
+**Suggestion for improvement**
+I'd suggest including MLOps-related vulnerabilities in the ML06 (or maybe in some other categories as well? I am open for suggestions). 
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+#### <img src="https://avatars.githubusercontent.com/u/25385987?u=7cdade85961090394618858dfe721238d54373cd&v=4" width="50">[sagarbhure](https://github.com/sagarbhure) commented at [2023-11-28 05:42](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188#issuecomment-1829141861):
+
+In my view it should be in ML06, However is should be better renamed with ML from AI supply chain i believe to keep ourself distinct, How would you recommend adding these in the existing ML06, keeping the attacks generic to other packages
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:06](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188#issuecomment-1859517344):
+
+Hi @mik0w I definitely think we should look at including the ecosystem of MLOps software. I am not sure that it all falls within  supply chain though. Keen to hear your thoughts on this.
+
+
+-------------------------------------------------------------------------------
+
+# [\#187 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187) `open`: [FEEDBACK]: Sync attack names between LLMT10 and MLT10 where appropriate
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/795878?u=d704fd433504e531d707c517cdb6ff75bdf20372&v=4" width="50">[kapsolas](https://github.com/kapsolas) opened issue at [2023-11-16 22:16](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+I would like to make the suggestion that we consolidate the terms used in the LLM and ML top 10 documents.
+
+Many of the top 10 items in each are closely related or even the same.
+Where possible, the same term should be used (i.e. Model Theft vs Model Stealing, Data Poisoning Attack vs Training data Poisoning).
+
+Thanks!
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:03](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187#issuecomment-1859515638):
+
+Hi @kapsolas apologies for the delay in responsing.
+
+Will definitely look to changing "Model Stealing" to "Model Theft". 
+
+In terms of "Data Poisoning v Training data poisoning" I would like to defer to @yodap-dg 
+
+Typically in research papers it is referred to as "Data Poisoning" and I agree that the use case is largely around the training data itself.
+
+What are your thoughts @yodap-dg?
+
+
+-------------------------------------------------------------------------------
+
+# [\#182 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/182) `open`: fix: merge review from @harrietf
+**Labels**: `issues/triage`, `review needed`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-31 18:00](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/182):
+
+[Harriet Farlow](https://www.linkedin.com/in/harriet-farlow-654963b7/) sent through her feedback via mail.
+
+Uploading Word doc and also outputting to Markdown in this issue to track.
+
+Feedback in Word doc: [OWASP Top Ten Feedback.docx](https://github.com/OWASP/www-project-machine-learning-security-top-10/files/13219930/OWASP.Top.Ten.Feedback.docx)
+
+
+
+Output in Markdown from Word doc below:
+---
+**General feedback - the list and the home page**
+
+I think this is great! Some feedback below:
+
+-   I would also add something about these kinds of mitigations being
+    risk-based, and that each organisation should make a risk-based
+    assessment of which specific attacks are more likely to be employed
+    against their models, how impactful the ramifications would be (ie.
+    would they lose massive amounts of PII or would someone just get a
+    bad customer experience) and then decide on their ML security
+    posture from there.
+
+-   I would also highlight some of the reasons why ML systems are
+    different to traditional cyber systems (ie. ML systems are
+    probabilistic while cyber systems are rules based, ML systems learn
+    and evolve while cyber systems are more static). From an
+    organisational perspective this means that it is unfair to expect
+    cyber security professionals to automatically know how best to
+    secure ML systems, and that there should be investment in training
+    and/or the creation of new roles
+
+-   I would also add a comment about the terminology here being ML
+    security vs AI security. Clarify the difference between ML and AI
+    (ie. AI is a broader set of technologies while ML refers
+    specifically to the AI sub-field of ML models). For example, I
+    usually refer to my work as AI Security to be more encompassing of
+    an audience who is used to hearing about AI, but most of what I talk
+    about is actually ML security. Adding something here about these
+    terms would be useful for non-ML folk.
+
+**Some questions before I give feedback on these things**
+
+-   Is the intention of the top 10 list that it is also ordered so that
+    #1 is most threatening, or is it unordered?
+
+-   What is the methodology/reference for the risk factor values under
+    each threat? (I know it comes from the specific scenarios, but is it
+    meant to also be representative of 'common' ways of implementing the
+    attack? Because it could be very different and might be interpreted
+    as generic)
+
+**ML01:2023 Input Manipulation Attack**
+
+-   Where Adversarial Attacks are referenced in the intro, I usually see
+    this referred to as an Adversarial Example instead and this language
+    would be more consistent. I'm also not sure what it means by saying
+    it's an umbrella term, what are the other attacks underneath this
+    umbrella?
+
+-   The list Adversarial Training, Robust Models, Input Validation are
+    all good to include but could be rephrased to be mutually exclusive
+    (ie. the Robust Models section references both Adversarial Training
+    and Input Validation as the way to make models robust). You could
+    start with Robust Models first and still mention that those other
+    two techniques are some ways to make model robust, but is also
+    dependent on good data quality (clean data, good feature
+    engineering, complete data), model selection (having to choose an
+    appropriate balance between accuracy and interpretability, which are
+    usually trade-offs), considering ensemble methods instead of a
+    single model (ie. you get results from multiple models as a way of
+    checking and validation output). You can then into system level
+    security measures (input validation) and process-based security
+    measures (incorporating adversarial training).
+
+-   Love the scenarios, that really helps to put it in perspective.
+
+**ML02:2023 Data Poisoning Attack**
+
+-   Would be worth including more here in the 'about' section around how
+    this normally happens (an organisation's data repository could have
+    new data added, or existing data altered), why it works (an ML
+    model's heavy reliance on training data and the fact that it needs
+    LOTS of it, which means it's also very hard to spot if it has been
+    tampered with), who is likely to do this (someone either needs
+    access to the data repository if the model is trained on internal
+    data only in which case an insider threat scenario is more likely,
+    or if the model learns from 'new' data fed from the outside like a
+    chatbot that learns off inputs without validation (ie. Tay) then
+    this is a much easier attack) etc. Also clarify how this is
+    different to the cyber security challenge of just keeping data
+    secure (ie. it's more about the statistical distribution of the data
+    than the likelihood of data breach).
+
+-   The 'how to prevent this section' is great, and adding more info
+    beforehand might help make it clearer as to why these measures are
+    important, and why the measure to secure data is for different
+    reasons than traditional cyber security threat models.
+
+-   Again, great examples. You could add something like a chatbot or
+    social media model here to underscore how publicly injected data is
+    also a risk here.
+
+**ML03:2023 Model Inversion Attack & ML04:2023 Membership Inference
+Attack**
+
+-   These two attacks could be clarified as to exactly how they're
+    different, and depending on how you expect someone might use the Top
+    10, you could consider combining them. For example, they both leak
+    information about data used to train the model but model inversion
+    is about leaking any data, and membership inference is more about
+    seeing if a specific piece of data was used. Or you could clarify
+    that they are separate based on the different controls used to
+    prevent it (ie. is the focus on differentiation here the goal of
+    attack, or the means of securing it)
+
+-   Model inversion - you could explain what it means to
+    'reverse-engineer' in this context. Ie. it is more about targeted
+    prompting than reverse engineering in a cyber context. This would
+    also explain why the suggested controls (ie. input verification)
+    work.
+
+**ML05:2023 Model Stealing**
+
+-   This is good! Again, I think a longer description would be helpful.
+
+**ML06:2023 AI Supply Chain Attacks**
+
+-   Yes, love that this is included!
+
+-   Why are we switching from ML to AI here?
+
+**ML07:2023 Transfer Learning Attack**
+
+-   This is interesting.. In my mind this is more an AI misuse issue
+    than an AI security issue, but it really depends on the scenario I
+    think. Could be worth clarifying here.
+
+**ML08:2023 Model Skewing**
+
+-   This also seems the same as the data poisoning attack.. It's not
+    clear how they're different. Usually when I saw model skewing the
+    attack is based on being able to change the model outcome without
+    actually touching the training data.. Would be worth clarifying
+    here.
+
+**ML09:2023 Output Integrity Attack**
+
+-   Again, this attack overlaps a lot with other attacks already listed
+    that aim to impact the output, it's almost more of an umbrella term
+    in my mind. Or it could be different but it depends on how an
+    organisation creates its threat model. The controls mentioned here
+    are good though, so it's worth clarifying why this is listed as a
+    different attack and if it's based on the controls suggested (which
+    would also apply to the other attacks listed).
+
+**ML10:2023 Model Poisoning**
+
+-   Yes, this is good, and worth adding a bit more about how this can
+    happen (ie. direct alteration of the model through injection, the
+    interaction with hardware here and how this can be done in memory
+    etc)
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#178 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/178) `open`: feat(docs): create a GLOSSARY page of commonly used terms
+**Labels**: `documentation/general`, `help wanted`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-31 16:48](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/178):
+
+Machine Learning has a lot of terminology that may be new to people. Need to create a glossary page of commonly used terms.
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-31 16:56](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/178#issuecomment-1787613865):
+
+- [glossary page](https://github.com/OWASP/www-project-machine-learning-security-top-10/blob/master/tab_glossary.md)
+- [rendered on site](https://owasp.org/www-project-machine-learning-security-top-10/#div-glossary)
+
+
+-------------------------------------------------------------------------------
+
 # [\#172 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/172) `open`: chore(admin): assign owner(s) for ML10 Model Poisoning
 **Labels**: `help wanted`, `documentation/risks`
 
@@ -9,7 +315,7 @@ Export of Github issues for [OWASP/www-project-machine-learning-security-top-10]
 - [ ] Assigned Lead Contributor for ML10
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML10 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML10 will also be assigned to the cheatsheet - ref: #158 
 
 
 
@@ -25,7 +331,7 @@ Ideally the Lead Contributor for ML10 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML09
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML09 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML09 will also be assigned to the cheatsheet - ref: #157 
 
 
 
@@ -41,39 +347,7 @@ Ideally the Lead Contributor for ML09 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML08
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML08 will also be assigned to the cheatsheet
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#169 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/169) `open`: chore(admin): assign owner(s) for ML07 Transfer Learning Attack
-**Labels**: `help wanted`, `documentation/risks`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:28](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/169):
-
-- [ ] Assigned Lead Contributor for ML07
-- [ ] Update CODEOWNERS with contributor details
-
-Ideally the Lead Contributor for ML07 will also be assigned to the cheatsheet
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#168 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/168) `open`: chore(admin): assign owner(s) for ML06 AI Supply Chain Attacks
-**Labels**: `help wanted`, `documentation/risks`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:27](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/168):
-
-- [ ] Assigned Lead Contributor for ML06
-- [ ] Update CODEOWNERS with contributor details
-
-Ideally the Lead Contributor for ML06 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML08 will also be assigned to the cheatsheet - ref: #156 
 
 
 
@@ -89,7 +363,7 @@ Ideally the Lead Contributor for ML06 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML05
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML05 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML05 will also be assigned to the cheatsheet - ref: #153 
 
 
 
@@ -105,7 +379,7 @@ Ideally the Lead Contributor for ML05 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML04
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML04 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML04 will also be assigned to the cheatsheet - ref: #152 
 
 
 
@@ -121,23 +395,7 @@ Ideally the Lead Contributor for ML04 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML03
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML03 will also be assigned to the cheatsheet
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#164 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/164) `open`: chore(admin): assign owner(s) for ML02 Data Poisoning Attack
-**Labels**: `help wanted`, `documentation/risks`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:24](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/164):
-
-- [ ] Assigned Lead Contributor for ML02
-- [ ] Update CODEOWNERS with contributor details
-
-Ideally the Lead Contributor for ML02 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML03 will also be assigned to the cheatsheet - ref: #151 
 
 
 
@@ -153,7 +411,7 @@ Ideally the Lead Contributor for ML02 will also be assigned to the cheatsheet
 - [ ] Assigned Lead Contributor for ML01
 - [ ] Update CODEOWNERS with contributor details
 
-Ideally the Lead Contributor for ML01 will also be assigned to the cheatsheet
+Ideally the Lead Contributor for ML01 will also be assigned to the cheatsheet - ref: #147 
 
 
 
@@ -221,7 +479,7 @@ Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks
 -------------------------------------------------------------------------------
 
 # [\#155 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155) `open`: feat(docs): create a cheatsheet for ML07 Transfer Learning Attack
-**Labels**: `enhancement`, `help wanted`, `documentation/cheatsheets`
+**Labels**: `enhancement`, `documentation/cheatsheets`
 
 
 #### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 05:00](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155):
@@ -235,7 +493,11 @@ Example Cheatsheet: [Input Validation Cheatsheet](https://github.com/OWASP/Cheat
 
 Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks - Cheatsheets](https://github.com/OWASP/www-project-machine-learning-security-top-10/blob/master/docs/cheatsheets/ML01_2023-Input_Manipulation_Attack-Cheatsheet.md)
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-11-15 03:32](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155#issuecomment-1811755511):
 
+adding @techiemac as potential lead to this due to his request for taking lead on the risk document.
+
+adding @sagarbhure and @shsingh as backup
 
 
 -------------------------------------------------------------------------------
@@ -255,7 +517,11 @@ Example Cheatsheet: [Input Validation Cheatsheet](https://github.com/OWASP/Cheat
 
 Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks - Cheatsheets](https://github.com/OWASP/www-project-machine-learning-security-top-10/blob/master/docs/cheatsheets/ML01_2023-Input_Manipulation_Attack-Cheatsheet.md)
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-31 17:01](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/154#issuecomment-1787621593):
 
+adding @mik0w as potential lead to this due to his request for taking lead on the risk document.
+
+adding @sagarbhure and @shsingh as backup
 
 
 -------------------------------------------------------------------------------
@@ -335,7 +601,11 @@ Example Cheatsheet: [Input Validation Cheatsheet](https://github.com/OWASP/Cheat
 
 Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks - Cheatsheets](https://github.com/OWASP/www-project-machine-learning-security-top-10/blob/master/docs/cheatsheets/ML01_2023-Input_Manipulation_Attack-Cheatsheet.md)
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-11-02 10:04](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/150#issuecomment-1790425001):
 
+adding @yodap-dg as potential lead to this due to his request for taking lead on the risk document.
+
+adding @sagarbhure and @shsingh as backup
 
 
 -------------------------------------------------------------------------------
@@ -615,73 +885,6 @@ initial issue mentioned #43
 
 -------------------------------------------------------------------------------
 
-# [\#129 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129) `open`: fix ePUB and WF to push updates to Repo
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) opened issue at [2023-10-20 06:50](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129):
-
-this PR contains fix to #99 and #128 
-
-1. Workflow to automate mirror to the https://mltop10.info/ host GitHub repo.
-2. Fixes MD files, so the ePUB renders without errors.
-3. Fixes alignment of tables.
-
-note, the data in table arrangement is not good so the ePUB variant has jumbled data. This can be revisited once the tabular data is fixed.
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-20 06:54](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1772185642):
-
-Note, this requires a GitHub token of the MLTOP10 Repo, saved with name COPY_TOKEN to do the WF push.
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-30 00:36](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784304978):
-
-> this PR contains fix to #99 and #128
-> 
-> 1. Workflow to automate mirror to the https://mltop10.info/ host GitHub repo.
-> 2. Fixes MD files, so the ePUB renders without errors.
-> 3. Fixes alignment of tables.
-> 
-> note, the data in table arrangement is not good so the ePUB variant has jumbled data. This can be revisited once the tabular data is fixed.
-
-Hi @msnishanth9001 thanks for the PR.
-
-Is the intent of this PR to mirror or to fix formatting issues? Or both?
-
-At this stage the repo for https://mltop10.info is done manually because it needs a manual run of 'quarto' to generate the files. 
-
-The rendering of EPUB and PDF at this stage is more critical then worrying about the mirroring portion IMHO.
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-30 06:46](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784575634):
-
-Hi @shsingh can you please assign me this issue.
-
-The intent is to do both fix mirror and formatting issues. Once the formatting issue is fixed the ePUB generation will be fixed.
-
-the following WF PR will publish ePUB and PDF.
-- https://github.com/mltop10-info/mltop10.info/pull/4
-
-
--------------------------------------------------------------------------------
-
-# [\#128 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/128) `open`: Workflow to clone Top 10 attacks to mirror site https://mltop10.info/
-**Labels**: `documentation/general`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) opened issue at [2023-10-20 06:49](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/128):
-
-Construct workflow to clone the Top 10 attack's MD File to the Repo https://github.com/mltop10-info/mltop10.info. 
-
-So that all changes to attack scenarios are pushed by WF rather than human interaction.
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-30 00:38](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/128#issuecomment-1784306108):
-
-Hi @msnishanth9001 
-
-commented on #129 
-
-workflow for mirroring is at this stage less important then rendering of the markdown into pdf and epub.
-
-
--------------------------------------------------------------------------------
-
 # [\#114 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/114) `open`: [Fortnightly] Working Group Meeting - 2023-Sep-14
 **Labels**: `meeting`
 
@@ -859,7 +1062,7 @@ Each of the Top 10 items are scored according to [OWASP's Risk Rating Methodolog
 -------------------------------------------------------------------------------
 
 # [\#2 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/2) `open`: fix: merge review from @robvanderveer
-**Labels**: `issues/triage`
+**Labels**: `issues/triage`, `review needed`
 
 
 #### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-04-27 10:07](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/2):
